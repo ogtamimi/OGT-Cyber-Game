@@ -39,11 +39,6 @@ Inject JavaScript and see how websites become vulnerable.
 ### ⭐ Level 3 – IDOR  
 Access hidden files by modifying URL parameters.
 
-### ⭐ Level 4 – CSRF  
-Experience how attackers trigger unwanted actions behind the scenes.
-
-### ⭐ Level 5 – File Upload (RCE Simulation)  
-Upload a fake “malicious” file and simulate server execution.
 
 ---
 
@@ -75,24 +70,36 @@ npm run build
 # 📂 Project Structure
 
 ```
-OGT-Cybersecurity-LearningGame/
+OGT-Cyber-Game/
 │
-├── assets/                 # Images, screenshots, animations
-├── components/             # Reusable UI components
-├── dist/                   # Production build (Vite output)
-├── levels/                 # Vulnerable PHP endpoints
-├── node_modules/           # Dependencies
+├── assets/
+│   └── screenshots/
+│       ├── screenshot1.png
+│       ├── screenshot2.png
+│       └── screenshot3.png
 │
-├── App.tsx                 # Main React App
-├── index.html              # Root HTML file
-├── index.tsx               # React entry point
-├── metadata.json           # Game metadata
-├── package.json            # Project dependencies + scripts
-├── README.md               # Documentation
-├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite build configuration
+├── src/
+│   ├── App.tsx
+│   ├── index.tsx
+│   │
+│   ├── components/
+│   │   ├── Confetti.tsx
+│   │   ├── Icons.tsx
+│   │   ├── TutorialContent.tsx
+│   │   └── UI.tsx
+│   │
+│   └── levels/
+│       ├── Level1SQLi.tsx
+│       ├── Level2XSS.tsx
+│       └── Level3IDOR.tsx
 │
-└── .gitignore              # Git ignored files
+├── README.md
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+└──.gitignore
+ 
 
 ```
 
