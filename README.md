@@ -1,12 +1,12 @@
 # 🎮 OGT Cybersecurity Learning Game
 
 An interactive, modern, animated cybersecurity learning platform built by **OGT**.  
-This game teaches web security vulnerabilities through hands‑on levels, real attack simulations, hints, animations, and mini‑tutorials.
+This game teaches web security vulnerabilities through hands-on levels, real attack simulations, hints, animations, and mini-tutorials.
 
 ---
 
 # 🌐 Live Demo   
-**https://ogtamimi.github.io/OGT-Cyber-Game/**
+👉 **https://ogtamimi.github.io/OGT-Cyber-Game/**
 
 ---
 
@@ -14,9 +14,8 @@ This game teaches web security vulnerabilities through hands‑on levels, real a
 
 - 🎯 **3 Fully Interactive Vulnerability Levels**
   - SQL Injection (Login Bypass)
-  - Cross‑Site Scripting (XSS)
+  - Cross-Site Scripting (XSS)
   - IDOR (Unauthorized Access)
-  
 
 - ✨ **Modern Animated UI (React + Vite)**
 - 💡 **Dynamic Hint System**
@@ -39,37 +38,57 @@ Inject JavaScript and see how websites become vulnerable.
 ### ⭐ Level 3 – IDOR  
 Access hidden files by modifying URL parameters.
 
-
 ---
 
 # ⚙️ Tech Stack
+
 - **React + Vite**
-- **JavaScript**
+- **TypeScript**
+- **TailwindCSS**
 - **CSS Animations**
-- **PHP (for vulnerable levels)**
+- **PHP (vulnerable backend)**
 - **GitHub Pages Hosting**
 
 ---
 
-# 🛠️ Installation
+# 🛠 Installation
 
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ogtamimi/OGT-Cyber-Game.git
+cd OGT-Cyber-Game
+```
+
+### 2️⃣ Install dependencies
 ```bash
 npm install
+```
+
+### 3️⃣ Run the development server
+```bash
 npm run dev
 ```
 
-Build the project:
-
+### 4️⃣ Build the production version
 ```bash
 npm run build
 ```
 
----
+### 5️⃣ Deploy to GitHub Pages (optional)
+```bash
+npm run deploy
+```
 
+### 📝 Notes
+- Requires **Node.js 18+**
+- `.env.local` is optional (for API keys)
+- Final build output is inside the `/dist` folder
+
+---
 
 # 📂 Project Structure
 
-```
+```txt
 OGT-Cyber-Game/
 │
 ├── assets/
@@ -98,9 +117,7 @@ OGT-Cyber-Game/
 ├── package-lock.json
 ├── tsconfig.json
 ├── vite.config.ts
-└──.gitignore
- 
-
+└── .gitignore
 ```
 
 ---
@@ -116,14 +133,12 @@ OGT-Cyber-Game/
 ### 🏆 Brief Screen
 ![Brief](https://raw.githubusercontent.com/ogtamimi/OGT-Cyber-Game/main/assets/screenshots/screenshot3.png)
 
-
-
 ---
 
 # 👑 Author
 **OGT**  
 🔗 GitHub: https://github.com/ogtamimi  
-📧 Contact: ogttamimi@gmail.com 
+📧 Contact: **ogttamimi@gmail.com**
 
 ---
 
