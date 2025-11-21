@@ -1,4 +1,4 @@
-# 🎮 OGT Cybersecurity Learning Game
+# 🎮 OGT Cybersecurity Learning Game   
 
 An interactive, modern, animated cybersecurity learning platform built by **OGT**.  
 This game teaches web security vulnerabilities through hands-on levels, real attack simulations, hints, animations, and mini-tutorials.
@@ -145,5 +145,8 @@ OGT-Cyber-Game/
 
 ---
 
-# 📜 License
-Open-source for learning and educational purposes.
+📜 License
+
+MIT License (c) 2025 OGT
+This project is open-source for learning and educational use.
+
